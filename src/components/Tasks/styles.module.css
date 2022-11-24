@@ -1,0 +1,94 @@
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.task {
+  display: inline-block;
+  width: 350px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+}
+
+.visible{
+  display: block;
+}
+
+.invisible{
+  display: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.item p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #111;
+  letter-spacing: 1px;
+
+}
+
+.completed {
+  display: inline-block;
+  width: 350px;
+  text-decoration: line-through;
+  color: #11111180;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.btns i {
+  color: rgb(8, 6, 133);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+.item p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #111;
+    letter-spacing: 1px;
+  
+  }
+  
+.item.completed p {
+    text-decoration: line-through;
+    color: #11111180;
+  }
+  
+.item-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+  .item-btn i {
+    color: rgb(8, 6, 133);
+    font-size: 1rem;
+    cursor: pointer;
+  }
